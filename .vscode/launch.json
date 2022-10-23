@@ -1,0 +1,13 @@
+{
+    "configurations": [
+    {
+        "type": "gdb",
+        "request": "launch",
+        "name": "Launch Program",
+        "target": "./main",
+        "cwd": "${workspaceRoot}",
+        "valuesFormatting": "parseText",
+        "preLaunchTask": "build"
+    }
+    ]
+}
